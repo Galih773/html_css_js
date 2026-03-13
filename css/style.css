@@ -4,11 +4,11 @@
 /* other css file imports */
 @import url("sections/header.css");
 @import url("sections/hero.css");
-/* @import url("sections/about.css");
+@import url("sections/about.css");
 @import url("sections/popular.css");
 @import url("sections/trending.css");
 @import url("sections/subscribe.css");
-@import url("sections/footer.css"); */
+@import url("sections/footer.css");
 
 /* CSS variables for reusablity across all files (including above imported) */
 :root {
@@ -101,8 +101,10 @@ a {
 
 /* Hide scrollbar for IE, Edge and Firefox */
 .sushi__hide-scrollbar {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
 }
 
 /* START: about us media queries */
@@ -142,6 +144,7 @@ a {
 }
 
 @media screen and (max-width: 550px) {
+
   .about-us__image-sushi2 img,
   .about-us__image-sushi3 img {
     width: 50%;
@@ -162,6 +165,7 @@ a {
     padding: 32px;
   }
 }
+
 /* END: about us media queries */
 
 
@@ -185,6 +189,7 @@ a {
     padding-left: 0;
   }
 }
+
 /* END: header media queries */
 
 /* START: hero media queries */
@@ -233,6 +238,7 @@ a {
     padding: 32px;
   }
 }
+
 /* END: hero media queries */
 
 /* START: popular media queries */
@@ -246,6 +252,7 @@ a {
     min-width: 100%;
   }
 }
+
 /* END: popular media queries */
 
 /* START: subscribe media queries */
@@ -282,6 +289,7 @@ a {
     min-width: 100%;
   }
 }
+
 /* END: subscribe media queries */
 
 /* START: trending media queries */
@@ -318,4 +326,5 @@ a {
     padding: 32px;
   }
 }
+
 /* END: trending media queries */
