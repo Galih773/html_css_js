@@ -17,3 +17,5 @@ Block: .header
 Element: .header\_\_logo
 
 Modifier: .header\_\_logo--red
+
+reuse styling
